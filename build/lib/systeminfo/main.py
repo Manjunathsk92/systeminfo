@@ -2,7 +2,8 @@ import platform
 
 
 def main():
-    return(platform.platform())
+    print(platform.platform())
+    return
 
 if __name__=='__main__':
     main()
